@@ -1,0 +1,8 @@
+ro.product.device_for_attestation=xun
+ro.product.manufacturer_for_attestation=Xiaomi
+ro.product.odm.cert=xun
+ro.product.odm.marketname=xun
+ro.surface_flinger.game_default_frame_rate_override=60
+ro.vendor.audio.camera.loopback.support=false
+ro.vendor.audio.karaoke.enable=true
+ro.vendor.qti.va_odm.support=1

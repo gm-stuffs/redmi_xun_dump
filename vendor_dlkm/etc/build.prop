@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.vendor_dlkm.brand=Redmi
+ro.product.vendor_dlkm.device=xun
+ro.product.vendor_dlkm.manufacturer=Xiaomi
+ro.product.vendor_dlkm.model=xun
+ro.product.vendor_dlkm.cert=xun
+ro.product.vendor_dlkm.name=xun_global
+ro.product.vendor_dlkm.marketname=xun
+ro.vendor_dlkm.build.date=Thu Jan  9 12:16:03 UTC 2025
+ro.vendor_dlkm.build.date.utc=1736424963
+ro.vendor_dlkm.build.fingerprint=Redmi/xun_global/xun:13/TKQ1.221114.001/OS2.0.1.0.VMUMIXM:user/release-keys
+ro.vendor_dlkm.build.id=TKQ1.221114.001
+ro.vendor_dlkm.build.tags=release-keys
+ro.vendor_dlkm.build.type=user
+ro.vendor_dlkm.build.version.incremental=OS2.0.1.0.VMUMIXM
+ro.vendor_dlkm.build.version.release=13
+ro.vendor_dlkm.build.version.release_or_codename=13
+ro.vendor_dlkm.build.version.sdk=33
+# end of file
+
