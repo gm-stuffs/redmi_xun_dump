@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parameter>
+  <item name="Config">
+    <!--value = 0x80000 + 7001-->
+    <param key="QCRIL_OEM_HOOK_REQID" value="531290"/>
+    <param key="SupportSingleSIM"    value="true"/>
+    <param key="Supportmodem"    value="false"/>
+    <param key="SupportPowerKey"    value="true"/>
+  </item>
+  <item name="LightSensor">
+    <param key="BackLightFile" value="/sys/class/backlight/panel0-backlight/brightness"/>
+  </item>
+  <item name="Camera">
+    <param key="TwinCameraType" value="switch"/>
+  </item>
+  <item name="Charge">
+    <param key="SupportCurrent" value="false"/>
+    <param key="SupportFastCharge" value="false"/>
+  </item>
+  <item name="Config">
+    <param key="ConnectorType" value="Type-C"/>
+  </item>
+  <item name="SecretCode">
+    <param key="WifiLogVer" value="V2"/>
+    <param key ="DiagMode" value="diag,adb"/>
+  </item>
+  <item name="LED">
+    <param key="hasBacklight" value="true"/>
+    <param key="hasWhiteLED" value="false"/>
+    <param key="hasRedLED" value="false"/>
+    <param key="hasGreenLED" value="false"/>
+    <param key="hasBlueLED" value="false"/>
+    <param key="hasBackTorch" value="true"/>
+    <param key="hasBackTorch2" value="false"/>
+    <param key="hasFrontTorch1" value="false"/>
+    <param key="hasBackTorch1_2" value="false"/>
+    <param key="hasKeyLED" value="false"/>
+  </item>
+  <item name="SAR_SENSOR">
+    <param key="SarFactoryEnable" value="false"/>
+  </item>
+  <item name="SoftVersion">
+    <param key="isShowIFAA_FIDO_Widevine_Keybox" value="true"/>
+    <param key="isShowPaInformation" value="true"/>
+    <param key="PaInformationFile" value="/sys/android_audio/audio_pa"/>
+  </item>
+  <item name="AutoTest">
+    <param key="memoryInfo" value="true"/>
+    <param key="unsupport_items" value="TEST_REARSUBCAMERA, TEST_FINGERPRINT, TEST_PROXIMITYSENSOR, TEST_VIBRATION, TEST_BATCON, TEST_GYRO, TEST_MAGNETISM"/>
+  </item>
+  <item name="SarsensorDiff">
+    <param key="main_cap_low" value="57"/>
+    <param key="main_cap_high" value="107"/>
+    <param key="base_cap_low" value="57"/>
+    <param key="base_cap_high" value="107"/>
+    <param key="max_low" value="6700"/>
+    <param key="max_high" value="11700"/>
+  </item>
+
+  <item name="CPRamdump">
+    <param key="Cp_Ramdump" value="true"/>
+  </item>
+</parameter>
